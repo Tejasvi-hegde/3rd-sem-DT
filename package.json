@@ -1,0 +1,23 @@
+{
+  "name": "parking-space-counter-using-machine-learning",
+  "version": "1.0.0",
+  "description": "<img align=\"right\" alt=\"Coding\" width=\"400\" src=\"https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type":"module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "path": "^0.12.7",
+    "pg": "^8.13.1"
+  }
+}

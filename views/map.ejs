@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaflet Map Example</title>
+  
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="/css/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch/dist/geosearch.css" />
+  <script src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+ 
+</head>
+<body>
+  
+  <div class="container">
+    <div class="button-container">
+      <button class="btn" id="showpoint">nearer locations</button>
+      <button class="btn" id="shortest">shortest place</button>
+    </div>
+    <div id="camera-container">
+      <div id="video-wrapper" style="display:none; position: relative;">
+        <video id="webcam" autoplay playsinline width="400"></video>
+        <button id="close-camera" style="position: absolute; top: 5px; right: 5px; background-color: red; color: white; border: none; cursor: pointer;">X</button>
+      </div>
+    </div>
+    
+   
+  </div>
+  <h1>User Map</h1>
+  <div id="map"></div>
+
+
+ 
+
+  <!-- Leaflet JavaScript -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin=""
+  ></script>
+  <script src="https://unpkg.com/leaflet-geosearch/dist/geosearch.umd.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+  
+      <script type="module" src="./index.js"></script>
+
+</body>
+</html>

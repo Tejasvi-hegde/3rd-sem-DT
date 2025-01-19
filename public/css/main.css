@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  
+  .btn {
+    width: 150px;     /* Set button width */
+    height: 40px;     /* Set button height */
+    font-size: 14px;  /* Reduce font size */
+    text-align: center;
+    color: white;     /* Button text color */
+    background-color: #007bff; /* Button background color */
+    border: none;
+    border-radius: 5px; /* Optional: rounded corners */
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Slightly darker color on hover */
+  }
+  
+      #map {
+        height: 500px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .container {
+        display: flex;
+        justify-content:center;  /* Horizontally center */
+        top:39px;      /* Vertically center */
+      }
